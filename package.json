@@ -1,0 +1,28 @@
+{
+  "name": "erp-project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Kent Adrian Sato",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "better-queue": "^3.8.12",
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "dataloader": "^2.2.2",
+    "dotenv": "^16.4.4",
+    "fastify": "^4.26.1",
+    "helmet": "^7.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "moment": "^2.30.1",
+    "mysql2": "^3.9.1",
+    "sequelize": "^6.37.0",
+    "uuid": "^9.0.1"
+  }
+}
