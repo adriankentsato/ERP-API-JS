@@ -12,6 +12,7 @@ if ( env.error ) throw new Error( env.error )
 
 module.exports = {
     port: env.parsed.PORT,
+    logger: env.parsed.LOGGER,
     db: {
         host: env.parsed.DB_HOST,
         name: env.parsed.DB_NAME,
