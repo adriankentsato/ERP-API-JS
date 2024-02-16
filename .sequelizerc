@@ -1,0 +1,14 @@
+/**
+ * Created By: Kent Adrian Sato
+ * 
+ * Date: February 16, 2024
+ */
+
+
+const path = require('path')
+
+module.exports = {
+    'config': path.resolve('sequelize', 'index.js'),
+    'seeders-path': path.resolve('sequelize', 'seeders'),
+    'migrations-path': path.resolve('sequelize', 'migrations'),
+}
